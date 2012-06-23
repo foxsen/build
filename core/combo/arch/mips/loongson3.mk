@@ -10,7 +10,8 @@ arch_variant_cflags := \
     -mtune=mips32 \
     -mips32 \
     -mhard-float \
-    -DPAGE_SIZE_16KB
+    -DPAGE_SIZE_16KB \
+    -DCPU_LOONGSON3
 
 arch_variant_ldflags := \
     -EL 
